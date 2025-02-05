@@ -42,6 +42,7 @@ public class FuncionarioService {
             System.out.println(funcionario.getDataNascimento().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")).toString().replace("-","/"));
             System.out.println(funcionario.getFuncao());
         }
+        System.out.println("-----------------------------");
     }
     private String formatarSalario(BigDecimal salario){
         DecimalFormat formato = new DecimalFormat("#,##0.00");
